@@ -9,6 +9,9 @@ module.exports = {
         blue: "#3D2FE8",
         cyan: "#00FFF0",
         purple: "#9E00FF"
+      },
+      backgroundImage: {
+        'blurry': "url('/src/assets/blurry.svg')"
       }
     },
   },
