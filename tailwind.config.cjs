@@ -8,10 +8,11 @@ module.exports = {
         aqua: "#189DC7",
         blue: "#3D2FE8",
         cyan: "#00FFF0",
-        purple: "#9E00FF"
+        purple: "#9E00FF",
+        "black-navy": "#010020"
       },
       backgroundImage: {
-        'blurry': "url('/src/assets/blurry.svg')"
+        blurry: "url('/src/assets/blurry.svg')"
       }
     },
   },

@@ -220,8 +220,9 @@ export const promo = [
     }
 ]
 
-export const CTA = {
+export const cta = {
     title: "Bingung dan ingin bertanya?",
     subtitle: "Ngga perlu sungkan hehe. Konsultasikan aja dulu ke mimin lewat Whatsapp ya...",
-    wa: "https://wa.me/+6281284262787"
+    wa: "https://wa.me/+6281284262787",
+    img: "/src/assets/lup.webp"
 }

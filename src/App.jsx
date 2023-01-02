@@ -1,4 +1,5 @@
 import ClassCard from "./components/ClassCard";
+import CTA from "./components/CTA";
 import FeatureCard from "./components/FeatureCard";
 import Navbar from "./components/Navbar";
 import { uv, hero, promo } from "./constants/landing";
@@ -49,6 +50,8 @@ const App = () => (
         </div>
       </div>
     </div>
+
+    <CTA />
   </div>
 );
 
