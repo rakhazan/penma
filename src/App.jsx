@@ -1,6 +1,7 @@
 import ClassCard from "./components/ClassCard";
 import CTA from "./components/CTA";
 import FeatureCard from "./components/FeatureCard";
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import TestimonialCard from "./components/TestimonialCard";
 import { uv, hero, promo, testimonials } from "./constants/landing";
@@ -27,7 +28,7 @@ const App = () => (
       </div>
     </div>
 
-    <div className="px-4 md:px-24 py-12 md:py-32">
+    <div className="px-4 md:px-24 py-12 md:py-24">
       <h2 className="text-gradient text-lg md:text-3xl font-semibold mb-8 md:mb-12">
         Mengapa Memilih PENMA?
       </h2>
@@ -38,7 +39,7 @@ const App = () => (
       </div>
     </div>
 
-    <div className="px-4 md:px-24 py-12 md:py-32">
+    <div className="px-4 md:px-24 py-12 md:py-24">
       <h3 className="text-gradient md:text-2xl font-medium">Kelas Premium</h3>
       <h2 className="text-gradient text-lg md:text-3xl font-semibold mb-8 md:mb-12">
         Promo Kelas Buat Kamu
@@ -54,7 +55,7 @@ const App = () => (
 
     <CTA />
 
-    <div className="px-4 md:px-24 py-12 md:py-32 flex flex-col md:flex-row md:items-center justify-between">
+    <div className="px-4 md:px-24 py-12 md:py-24 flex flex-col md:flex-row md:items-center justify-between">
       <h2 className="text-gradient text-lg md:text-3xl font-semibold mb-8 md:mb-12">
         Apa Kata Member?
       </h2>
@@ -64,6 +65,8 @@ const App = () => (
         ))}
       </div>
     </div>
+
+    <Footer />
   </div>
 );
 

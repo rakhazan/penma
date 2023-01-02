@@ -73,14 +73,14 @@ export const promo = [
         },
         tags: [
             {
-                icon: "",
+                icon: "/src/assets/icons/lvl-pemula.svg",
                 tag: "Pemula"
             },
             {
                 tag: "E-Certificate"
             },
             {
-                icon: "",
+                icon: "/src/assets/icons/users.svg",
                 tag: "556"
             },
         ],
@@ -99,14 +99,14 @@ export const promo = [
         },
         tags: [
             {
-                icon: "",
+                icon: "/src/assets/icons/lvl-pemula.svg",
                 tag: "Pemula"
             },
             {
                 tag: "E-Certificate"
             },
             {
-                icon: "",
+                icon: "/src/assets/icons/users.svg",
                 tag: "556"
             },
         ],
@@ -125,14 +125,14 @@ export const promo = [
         },
         tags: [
             {
-                icon: "",
+                icon: "/src/assets/icons/lvl-pemula.svg",
                 tag: "Pemula"
             },
             {
                 tag: "E-Certificate"
             },
             {
-                icon: "",
+                icon: "/src/assets/icons/users.svg",
                 tag: "556"
             },
         ],
@@ -151,14 +151,14 @@ export const promo = [
         },
         tags: [
             {
-                icon: "",
+                icon: "/src/assets/icons/lvl-pemula.svg",
                 tag: "Pemula"
             },
             {
                 tag: "E-Certificate"
             },
             {
-                icon: "",
+                icon: "/src/assets/icons/users.svg",
                 tag: "556"
             },
         ],
@@ -177,14 +177,14 @@ export const promo = [
         },
         tags: [
             {
-                icon: "",
+                icon: "/src/assets/icons/lvl-pemula.svg",
                 tag: "Pemula"
             },
             {
                 tag: "E-Certificate"
             },
             {
-                icon: "",
+                icon: "/src/assets/icons/users.svg",
                 tag: "556"
             },
         ],
@@ -203,14 +203,14 @@ export const promo = [
         },
         tags: [
             {
-                icon: "",
+                icon: "/src/assets/icons/lvl-pemula.svg",
                 tag: "Pemula"
             },
             {
                 tag: "E-Certificate"
             },
             {
-                icon: "",
+                icon: "/src/assets/icons/users.svg",
                 tag: "556"
             },
         ],
