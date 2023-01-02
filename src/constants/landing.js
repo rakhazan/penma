@@ -226,3 +226,21 @@ export const cta = {
     wa: "https://wa.me/+6281284262787",
     img: "/src/assets/lup.webp"
 }
+
+export const testimonials = [
+    {
+        id: "testi 1",
+        username: "Bagas Fauzan",
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, dolorem error. Quas provident tenetur inventore laboriosam a alias id eum quam itaque, veniam ex ea neque facilis at placeat impedit officia optio."
+    },
+    {
+        id: "testi 2",
+        username: "Jakiati Rifqoh",
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, dolorem error. Quas provident tenetur inventore laboriosam a alias id eum quam itaque, veniam ex ea neque facilis at placeat impedit officia optio."
+    },
+    {
+        id: "testi 1",
+        username: "Ichda Rahma",
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, dolorem error. Quas provident tenetur inventore laboriosam a alias id eum quam itaque, veniam ex ea neque facilis at placeat impedit officia optio."
+    },
+]

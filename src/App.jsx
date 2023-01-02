@@ -2,7 +2,8 @@ import ClassCard from "./components/ClassCard";
 import CTA from "./components/CTA";
 import FeatureCard from "./components/FeatureCard";
 import Navbar from "./components/Navbar";
-import { uv, hero, promo } from "./constants/landing";
+import TestimonialCard from "./components/TestimonialCard";
+import { uv, hero, promo, testimonials } from "./constants/landing";
 
 const App = () => (
   <div className="App">
@@ -52,6 +53,17 @@ const App = () => (
     </div>
 
     <CTA />
+
+    <div className="px-4 md:px-24 py-12 md:py-32 flex flex-col md:flex-row md:items-center justify-between">
+      <h2 className="text-gradient text-lg md:text-3xl font-semibold mb-8 md:mb-12">
+        Apa Kata Member?
+      </h2>
+      <div className="flex flex-wrap items-center justify-center gap-x-12 gap-y-4">
+        {testimonials.map((testimoni, index) => (
+          <TestimonialCard key={testimoni.id} {...testimoni} index={index} />
+        ))}
+      </div>
+    </div>
   </div>
 );
 
