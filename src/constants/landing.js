@@ -67,7 +67,7 @@ export const promo = [
         banner: "/src/assets/class-banner.webp",
         className: "HTML, CSS, & Javascript",
         mentor: {
-            profile: "",
+            profile: "/src/assets/default-user.png",
             name: "Hafidz Naufal",
             profession: "Front-End Developer"
         },
@@ -89,11 +89,11 @@ export const promo = [
         promoPrice: "Rp50.000",
     },
     {
-        id: "class-1",
+        id: "class-2",
         banner: "/src/assets/class-banner.webp",
         className: "HTML, CSS, & Javascript",
         mentor: {
-            profile: "",
+            profile: "/src/assets/default-user.png",
             name: "Hafidz Naufal",
             profession: "Front-End Developer"
         },
@@ -115,11 +115,11 @@ export const promo = [
         promoPrice: "Rp50.000",
     },
     {
-        id: "class-1",
+        id: "class-3",
         banner: "/src/assets/class-banner.webp",
         className: "HTML, CSS, & Javascript",
         mentor: {
-            profile: "",
+            profile: "/src/assets/default-user.png",
             name: "Hafidz Naufal",
             profession: "Front-End Developer"
         },
@@ -141,11 +141,11 @@ export const promo = [
         promoPrice: "Rp50.000",
     },
     {
-        id: "class-1",
+        id: "class-4",
         banner: "/src/assets/class-banner.webp",
         className: "HTML, CSS, & Javascript",
         mentor: {
-            profile: "",
+            profile: "/src/assets/default-user.png",
             name: "Hafidz Naufal",
             profession: "Front-End Developer"
         },
@@ -167,11 +167,11 @@ export const promo = [
         promoPrice: "Rp50.000",
     },
     {
-        id: "class-1",
+        id: "class-5",
         banner: "/src/assets/class-banner.webp",
         className: "HTML, CSS, & Javascript",
         mentor: {
-            profile: "",
+            profile: "/src/assets/default-user.png",
             name: "Hafidz Naufal",
             profession: "Front-End Developer"
         },
@@ -193,11 +193,11 @@ export const promo = [
         promoPrice: "Rp50.000",
     },
     {
-        id: "class-1",
+        id: "class-6",
         banner: "/src/assets/class-banner.webp",
         className: "HTML, CSS, & Javascript",
         mentor: {
-            profile: "",
+            profile: "/src/assets/default-user.png",
             name: "Hafidz Naufal",
             profession: "Front-End Developer"
         },
