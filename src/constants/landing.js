@@ -6,9 +6,9 @@ export const navlinks = [
         current: true
     },
     {
-        id: "articles",
-        title: "Articles",
-        link: "#articles",
+        id: "kewirausahaan",
+        title: "Kewirausahaan",
+        link: "#kewirausahaan",
         current: false
     },
 ]
