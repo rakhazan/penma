@@ -1,13 +1,15 @@
-export const navinks = [
+export const navlinks = [
     {
         id: "home",
         title: "Home",
-        link: "#"
+        link: "#",
+        current: true
     },
     {
         id: "articles",
         title: "Articles",
-        link: "#articles"
+        link: "#articles",
+        current: false
     },
 ]
 

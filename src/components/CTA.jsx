@@ -1,11 +1,10 @@
 import React from "react";
-import bg from "../assets/cta-bg.svg";
 import { cta } from "../constants/landing";
 
 const CTA = () => (
   <>
     <div
-      className={`px-12 py-8 my-12 md:my-24 max-w-5xl mx-auto bg-[url('${bg}')] bg-cover bg-center rounded-3xl flex flex-col sm:flex-row justify-between items-center gap-4`}
+      className={`px-12 py-8 my-12 md:my-24 max-w-5xl mx-auto bg-[url('/src/assets/cta-bg.svg')] bg-cover bg-center rounded-3xl flex flex-col sm:flex-row justify-between items-center gap-4`}
     >
       <img
         src={cta.img}
