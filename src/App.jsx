@@ -7,7 +7,7 @@ const App = () => (
   <div className="root">
     <Routes>
       <Route path="/" element={<LandingPage />} errorElement={<ErrorPage/>}/>
-      <Route path="/article" element={<KWU />} errorElement={<ErrorPage/>}/>
+      <Route path="/kewirausahaan" element={<KWU />} errorElement={<ErrorPage/>}/>
     </Routes>
   </div>
 );

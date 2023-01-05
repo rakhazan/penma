@@ -8,7 +8,7 @@ export const navlinks = [
     {
         id: "kewirausahaan",
         title: "Kewirausahaan",
-        link: "#kewirausahaan",
+        link: "kewirausahaan",
         current: false
     },
 ]
