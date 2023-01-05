@@ -1,13 +1,13 @@
 import { Route, Routes } from "react-router-dom";
-import ErrorPage from "./components/ErrorPage";
+import ErrorPage from "./pages/ErrorPage";
 import KWU from "./components/Kwu";
-import LandingPage from "./components/LandingPage"
+import Landing from "./pages/Landing";
 
 const App = () => (
   <div className="root">
     <Routes>
-      <Route path="/" element={<LandingPage />} errorElement={<ErrorPage/>}/>
-      <Route path="/article" element={<KWU />} errorElement={<ErrorPage/>}/>
+      <Route path="/" element={<Landing />} errorElement={<ErrorPage />} />
+      <Route path="/article" element={<KWU />} errorElement={<ErrorPage />} />
     </Routes>
   </div>
 );
