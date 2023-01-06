@@ -1,5 +1,6 @@
 import React from "react";
 import { ImQuotesRight } from "react-icons/im";
+import icProfile from "../assets/default-user.png";
 
 const TestimonialCard = ({ username, text }) => (
   <>
@@ -11,11 +12,7 @@ const TestimonialCard = ({ username, text }) => (
         <ImQuotesRight />
       </span>
       <div className="flex flex-row items-center gap-2">
-        <img
-          src="/src/assets/default-user.png"
-          alt="user"
-          className="w-10 md:w-12 h-10 md:h-12"
-        />
+        <img src={icProfile} alt="user" className="w-10 md:w-12 h-10 md:h-12" />
         <p className="text-sm sm:text-lg md:text-xl text-black font-medium">
           {username}
         </p>
