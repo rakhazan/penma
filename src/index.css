@@ -24,6 +24,17 @@
 }
 
 @layer components {
+  .btn {
+    @apply px-8 py-4 rounded-full font-medium text-sm;
+  }
+
+  .btn-sm {
+    @apply px-4 py-2 rounded-full font-medium text-xs;
+  }
+
+  .btn-lg {
+    @apply px-12 py-4 rounded-full font-medium text-lg;
+  }
 }
 
 @layer utilities {

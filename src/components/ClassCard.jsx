@@ -77,7 +77,7 @@ const ClassCard = ({
             />
             {rating}
           </p>
-          <button className="py-2 md:px-12 flex-1 md:flex-none text-black text-xs md:text-base font-medium border border-black rounded-full">
+          <button className="btn-sm md:px-12 flex-1 md:flex-none text-black border border-black hover:bg-black hover:text-white">
             <div className="flex items-center justify-center gap-2">
               <IoWalletOutline />
               Beli Sekarang

@@ -23,7 +23,11 @@ const Footer = () => (
         <div className="w-fit p-4 text-sm md:text-base md:text-start">
           <h6 className="font-semibold text-black">Menu</h6>
           {navlinks.map((nav, index) => (
-            <Link key={nav.id} to={nav.link} className="block mt-2">
+            <Link
+              key={nav.id}
+              to={nav.link}
+              className="block mt-2 hover:text-blue"
+            >
               {nav.title}
             </Link>
           ))}

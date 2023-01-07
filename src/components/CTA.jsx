@@ -19,7 +19,7 @@ const CTA = () => (
         <a
           href={cta.wa}
           target="_blank"
-          className="text-xs font-semibold text-black bg-white rounded-full py-2 px-6"
+          className="btn-sm px-8 text-black bg-white hover:bg-gray-100"
         >
           Whatsapp
         </a>

@@ -11,10 +11,7 @@ const Hero = () => (
           {hero.title}
         </h1>
         <p className="mt-4 my-12 text-xs md:text-base">{hero.subtitle}</p>
-        <a
-          href="#"
-          className="py-4 px-12 rounded-full font-medium bg-white text-blue text-sm"
-        >
+        <a href="#" className="btn bg-white hover:bg-gray-200 text-blue">
           Daftar Sekarang
         </a>
       </div>
