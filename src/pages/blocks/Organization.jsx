@@ -1,6 +1,8 @@
 const Organization = () => {
     return ( 
-        <div>Organization TEst</div>
+        <div>
+            <img src="../../src/assets/board.webp" alt="board" />
+        </div>
      );
 }
  

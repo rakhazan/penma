@@ -1,7 +1,7 @@
 const Identity = () => {
-    return ( 
-        <div>testing identity</div>
-     );
+    return (
+        <div></div>
+    );
 }
- 
+
 export default Identity;
