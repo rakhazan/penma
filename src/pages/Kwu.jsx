@@ -1,4 +1,5 @@
 import { Link, Route, Routes } from "react-router-dom";
+import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import { content } from "../constants/kewirausahaan";
 import { navmini } from "../constants/navmenu";
@@ -18,7 +19,7 @@ const KWU = () => {
           className="object-cover object-center h-40 w-full rounded-2xl"
         />
       </div>
-      <div className="mx-24 flex">
+      <div className="mx-24 flex mb-10">
         <div className="p-6 bg-slate-200 rounded-2xl basis-1/6 mr-2 flex flex-col items-start">
           <div className="text-2xl mb-6">Profile</div>
           {navmini.map((nav, index) => (
@@ -31,7 +32,7 @@ const KWU = () => {
             </Link>
           ))}
         </div>
-        <div className="p-6 bg-slate-200 rounded-2xl basis-5/6 ml-2">
+        <div className="p-6 bg-slate-200 rounded-2xl basis-5/6 ml-2 min-h-screen">
           <Routes>
             <Route
               path="identitas"
@@ -51,6 +52,7 @@ const KWU = () => {
           </Routes>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

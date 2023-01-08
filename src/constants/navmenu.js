@@ -13,6 +13,11 @@ export const navlinks = [
 
 export const navmini = [
     {
+        id: "Visi, Misi, & Tujuan",
+        title: "Visi, Misi, & Tujuan",
+        link: "profile"
+    },
+    {
         id: "Identitas",
         title: "Identitas",
         link: "identitas"
@@ -21,10 +26,5 @@ export const navmini = [
         id: "Struktur Organisasi",
         title: "Struktur Organisasi",
         link: "organisasi"
-    },
-    {
-        id: "Visi, Misi, & Tujuan",
-        title: "Visi, Misi, & Tujuan",
-        link: "profile"
     },
 ];

@@ -30,3 +30,27 @@ export const contents = [
     ],
   },
 ];
+
+export const contentIdentity = [
+  {
+    value: "1. Lambang Sekolah Tinggi Teknologi Terpadu Nurul Fikri berbentuk bulatan berwarna biru dengan gambar berbentuk garis-garis putih didalamnya, dan elips berwarna oranye di luar lingkaran."
+  },
+  {
+    value: "2. Lingkaran dalam lambang Sekolah Tinggi Teknologi Terpadu Nurul Fikri bermakna bahwa segenap warga Sekolah Tinggi Teknologi Terpadu Nurul Fikri bersatu di dalam pengabdian/pelayanan yang teguh yang mengembangkan dan menyebarluaskan ilmu pengetahuan dan teknologi." 
+  },
+  {
+    value: "3. Lukisan berbentuk garis-garis di dalam lingkaran melambangkan sivitas akademika yang sedang belajar, melakukan penelitian di bidang ilmu pengetahuan dan teknologi, dan memanfaatan ilmunya untuk pengabdian kepada masyarakat."
+  },
+  {
+    value: "4. Lingkaran elips melambangkan ikatan yang kuat seluruh warga STT Terpadu Nurul Fikri untuk menjadi institusi yang memberi manfaat bagi bangsa indonesia dan ummat manusia di alam semesta."
+  },
+  {
+    value: "5. Warna biru lingkaran melambangkan arti bidang teknologi, profesional, dan kerja keras."
+  },
+  {
+    value: "6. Warna putih lukisan garis-garis melambangkan kebebasan dan keterbukaan akademik."
+  },
+  {
+    value: "7.Warna oranye elips melambangkan keinginan yang kuat untuk menjalankan visi, misi dan tujuan"
+  },
+]

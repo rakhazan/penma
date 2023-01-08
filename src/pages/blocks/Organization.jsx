@@ -1,7 +1,7 @@
 const Organization = () => {
     return ( 
         <div>
-            <img src="../../src/assets/board.webp" alt="board" />
+            <img src="../../src/assets/board.webp" alt="board"/>
         </div>
      );
 }
