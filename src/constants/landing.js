@@ -2,7 +2,7 @@ export const navlinks = [
     {
         id: "home",
         title: "Home",
-        link: "#",
+        link: "",
         current: true
     },
     {
@@ -246,3 +246,8 @@ export const testimonials = [
         text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, dolorem error. Quas provident tenetur inventore laboriosam a alias id eum quam itaque, veniam ex ea neque facilis at placeat impedit officia optio."
     },
 ]
+
+export const content = {
+    banner: "/src/assets/sttnf.webp",
+    name: "sttnf"
+}

@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import ErrorPage from "./pages/ErrorPage";
-import KWU from "./components/Kwu";
+import KWU from "./pages/Kwu";
 import Landing from "./pages/Landing";
 
 const App = () => (
