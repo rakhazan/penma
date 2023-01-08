@@ -1,7 +1,7 @@
 import React from "react";
 import { FiInstagram } from "react-icons/fi";
 import { Link } from "react-router-dom";
-import { navlinks } from "../constants/landing";
+import { navlinks } from "../constants/navmenu";
 
 const Footer = () => (
   <>

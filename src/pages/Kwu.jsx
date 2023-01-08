@@ -1,6 +1,7 @@
 import { Link, Route, Routes } from "react-router-dom";
 import Navbar from "../components/Navbar";
-import { content, navmini } from "../constants/landing";
+import { content } from "../constants/kewirausahaan";
+import { navmini } from "../constants/navmenu";
 import Identity from "./blocks/Identity";
 import Organization from "./blocks/Organization";
 import Profile from "./blocks/Profile";
@@ -22,6 +23,7 @@ const KWU = () => {
           <div className="text-2xl mb-6">Profile</div>
           {navmini.map((nav, index) => (
             <Link
+              key={nav.id}
               to={nav.link}
               className={`px-6 py-2 ${nav.current ? "text-white" : ""}`}
             >
@@ -32,17 +34,17 @@ const KWU = () => {
         <div className="p-6 bg-slate-200 rounded-2xl basis-5/6 ml-2">
           <Routes>
             <Route
-              path="/sttnf/identitas"
+              path="identitas"
               element={<Identity />}
               errorElement={<ErrorPage />}
             />
             <Route
-              path="/sttnf/organisasi"
+              path="organisasi"
               element={<Organization />}
               errorElement={<ErrorPage />}
             />
             <Route
-              path="/sttnf/profile"
+              path="profile"
               element={<Profile />}
               errorElement={<ErrorPage />}
             />

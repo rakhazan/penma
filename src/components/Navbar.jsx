@@ -2,7 +2,9 @@ import { Menu, Transition } from "@headlessui/react";
 import React, { Fragment } from "react";
 import { FiMenu } from "react-icons/fi";
 import { Link } from "react-router-dom";
-import { navlinks } from "../constants/landing";
+import { navlinks } from "../constants/navmenu";
+
+const active = (route) => location.pathname === route;
 
 const NavDropdown = () => (
   <Menu as={`div`} className="relative text-left">
@@ -23,10 +25,10 @@ const NavDropdown = () => (
       >
         {navlinks.map((nav, index) => (
           <Menu.Item key={nav.id}>
-            {({ active }) => (
+            {({ hover }) => (
               <Link
                 to={nav.link}
-                className={`${active && "text-blue"} block px-4 py-2 text-sm`}
+                className={`${hover && "text-blue"} block px-4 py-2 text-sm`}
               >
                 {nav.title}
               </Link>
@@ -45,7 +47,7 @@ const NavExpanded = () => (
         <Link
           key={nav.id}
           to={nav.link}
-          className={`px-6 py-2 ${nav.current ? "text-white" : ""}`}
+          className={`px-6 py-2 ${active(nav.link) ? "text-white" : null}`}
         >
           {nav.title}
         </Link>

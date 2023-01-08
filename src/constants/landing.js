@@ -10,43 +10,6 @@ import icProfile from '/src/assets/default-user.png';
 import icLevel from '/src/assets/icons/lvl-pemula.svg';
 import icUsers from '/src/assets/icons/users.svg';
 import lup from '/src/assets/lup.webp';
-import sttnf from '/src/assets/sttnf.webp';
-
-export const navlinks = [
-    {
-        id: "home",
-        title: "Home",
-        link: "/",
-        current: true,
-    },
-    {
-        id: "STTNF",
-        title: "STT Terpadu Nurul Fikri",
-        link: "/sttnf",
-        current: false,
-    },
-];
-
-export const navmini = [
-    {
-        id: "Identitas",
-        title: "Identitas",
-        link: "identitas",
-        current: false,
-    },
-    {
-        id: "Struktur Organisasi",
-        title: "Struktur Organisasi",
-        link: "organisasi",
-        current: false,
-    },
-    {
-        id: "Visi, Misi, & Tujuan",
-        title: "Visi, Misi, & Tujuan",
-        link: "profile",
-        current: false,
-    },
-];
 
 export const hero = {
     title: "PENMA Membantu Kamu Sebagai Mahasiswa",
@@ -281,24 +244,6 @@ export const testimonials = [
         text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, dolorem error. Quas provident tenetur inventore laboriosam a alias id eum quam itaque, veniam ex ea neque facilis at placeat impedit officia optio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit"
     },
 ];
-
-export const content = {
-    banner: sttnf,
-    name: "sttnf",
-    visi: "Pada tahun 2045 menjadi Sekolah Tinggi Teknologi yang unggul di Indonesia, berbudaya inovasi, berjiwa teknopreneur, dan berkarakter religius.",
-    misi: [
-        "1. Menyelenggarakan pendidikan tinggi berkualitas yang mengembangkan jiwa kepemimpinan dan teknopreneurship berlandaskan iman dan takwa.",
-        "2. Melaksanakan penelitian yang inovatif dan berorientasi pada pengembangan teknologi masa depan.",
-        "3. Menyelenggarakan pengabdian kepada masyarakat dengan memanfaatkan teknologi tepat guna.",
-        "4. Membangun lingkungan akademik yang kondusif bagi terwujudnya kebebasan akademik, otonomi keilmuan, dan budaya inovasi.",
-    ],
-    tujuan: [
-        "1. Menghasilkan sarjana yang kompeten, profesional, berakhlak mulia, sehingga mampu berkompetisi di dunia kerja.",
-        "2. Menghasilkan karya-karya ilmiah dibidang teknologi informasi berwawasan masa depan yang inovatif dan bercirikan keterbukaan (openness) seperti open source, open standar dan open access/content, sehingga bermanfaat bagi bangsa Indonesia dan diakui secara Internasional.",
-        "3. Menerapkan ilmu pengetahuan dan teknologi tepat guna bagi masyarakat dengan melibatkan sivitas akademika.",
-        "4. Menciptakan kultur akademik yang inovatif, kompetitif dan kondusif untuk mewujudkan institusi yang unggul dan terkemuka.",
-    ]
-};
 
 export const teams = [
     {
