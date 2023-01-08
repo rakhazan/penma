@@ -22,7 +22,7 @@ const NavDropdown = () => (
         className={`absolute right-0 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none`}
       >
         {navlinks.map((nav, index) => (
-          <Menu.Item>
+          <Menu.Item key={nav.id}>
             {({ active }) => (
               <Link
                 to={nav.link}
@@ -43,6 +43,7 @@ const NavExpanded = () => (
     <div className="flex flex-row items-center text-center">
       {navlinks.map((nav, index) => (
         <Link
+          key={nav.id}
           to={nav.link}
           className={`px-6 py-2 ${nav.current ? "text-white" : ""}`}
         >

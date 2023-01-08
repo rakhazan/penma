@@ -246,16 +246,55 @@ export const testimonials = [
     {
         id: "testi 1",
         username: "Bagas Fauzan",
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, dolorem error. Quas provident tenetur inventore laboriosam a alias id eum quam itaque, veniam ex ea neque facilis at placeat impedit officia optio."
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, dolorem error. Quas provident tenetur inventore laboriosam a alias id eum quam itaque, veniam ex ea neque facilis at placeat impedit officia optio. dolor sit amet consectetur adipisicing elit. Odit, dolorem error."
     },
     {
         id: "testi 2",
         username: "Jakiati Rifqoh",
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, dolorem error. Quas provident tenetur inventore laboriosam a alias id eum quam itaque, veniam ex ea neque facilis at placeat impedit officia optio."
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, dolorem error. Quas provident tenetur inventore laboriosam a alias id eum quam itaque."
     },
     {
-        id: "testi 1",
+        id: "testi 3",
         username: "Ichda Rahma",
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, dolorem error. Quas provident tenetur inventore laboriosam a alias id eum quam itaque, veniam ex ea neque facilis at placeat impedit officia optio."
+        text: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, dolorem error. Quas provident tenetur inventore laboriosam a alias id eum quam itaque, veniam ex ea neque facilis at placeat impedit officia optio.`
+    },
+]
+
+export const teams = [
+    {
+        photo: "",
+        name: "Hafidz Naufal Bariklana T",
+        nim: "",
+        role: "Product Leader | Developer"
+    },
+    {
+        photo: "",
+        name: "Rakha Zahran Nurfirmansyah",
+        nim: "0110221254",
+        role: "Developer"
+    },
+    {
+        photo: "",
+        name: "Bagas Fauzan Hidayat",
+        nim: "",
+        role: "Developer"
+    },
+    {
+        photo: "",
+        name: "Raihan Ahmad Fahrizal",
+        nim: "",
+        role: "Developer"
+    },
+    {
+        photo: "",
+        name: "Ichda Rahma",
+        nim: "",
+        role: "Marketing"
+    },
+    {
+        photo: "",
+        name: "Jakiati Rifqoh",
+        nim: "",
+        role: "Designer"
     },
 ]

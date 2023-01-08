@@ -30,7 +30,7 @@ const ClassCard = ({
   promoPrice,
 }) => (
   <>
-    <div className="bg-white w-[90%] max-w-sm flex-none rounded-2xl overflow-hidden">
+    <div className="bg-white w-[90%] max-w-xs flex-none rounded-2xl overflow-hidden">
       <img
         src={banner}
         alt={`Banner ${className}`}
