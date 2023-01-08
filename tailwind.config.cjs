@@ -12,7 +12,8 @@ module.exports = {
         "black-navy": "#010020"
       },
       backgroundImage: {
-        blurry: "url('/src/assets/blurry.svg')"
+        blurry: "url('/src/assets/blurry.svg')",
+        cta: "url('/src/assets/cta-bg.svg')"
       }
     },
   },
