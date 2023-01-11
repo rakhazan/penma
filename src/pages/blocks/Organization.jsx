@@ -1,9 +1,8 @@
-const Organization = () => {
-    return ( 
-        <div>
-            <img src="../../src/assets/board.webp" alt="board"/>
-        </div>
-     );
-}
- 
+import board from "/src/assets/board.webp";
+const Organization = () => (
+  <div>
+    <img src={board} alt="board" />
+  </div>
+);
+
 export default Organization;

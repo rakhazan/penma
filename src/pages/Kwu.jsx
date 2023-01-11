@@ -1,7 +1,7 @@
 import { Link, Route, Routes } from "react-router-dom";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import { content } from "../constants/kewirausahaan";
+import { content } from "../constants/sttnf";
 import { navmini } from "../constants/navmenu";
 import Identity from "./blocks/Identity";
 import Organization from "./blocks/Organization";
