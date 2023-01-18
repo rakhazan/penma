@@ -6,6 +6,7 @@ import { navmini } from "../constants/navmenu";
 import Identity from "./blocks/Identity";
 import Organization from "./blocks/Organization";
 import Profile from "./blocks/Profile";
+import Credit from "./Credit";
 import ErrorPage from "./ErrorPage";
 
 const KWU = () => {
@@ -47,6 +48,11 @@ const KWU = () => {
             <Route
               path="profile"
               element={<Profile />}
+              errorElement={<ErrorPage />}
+            />
+            <Route
+              path="credit"
+              element={<Credit />}
               errorElement={<ErrorPage />}
             />
           </Routes>

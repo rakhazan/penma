@@ -7,7 +7,7 @@ export const navlinks = [
     {
         id: "STTNF",
         title: "STT Terpadu Nurul Fikri",
-        link: "/sttnf"
+        link: "sttnf"
     },
 ];
 
@@ -26,5 +26,10 @@ export const navmini = [
         id: "Struktur Organisasi",
         title: "Struktur Organisasi",
         link: "organisasi"
+    },
+    {
+        id: "Credit",
+        title: "Credit Bebek Company",
+        link: "credit"
     },
 ];
