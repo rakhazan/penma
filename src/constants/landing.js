@@ -272,7 +272,7 @@ export const teams = [
     },
     {
         photo: "/kia.jpg",
-        name: "Jakiati Rifqoh",
+        name: "Jakiati Rifqoh Assalwa K",
         nim: "0110221252",
         role: "Designer"
     },
