@@ -4,7 +4,7 @@ import { promo } from "../../constants/landing";
 
 const ContentProduct = () => {
   return (
-    <div className="px-4 md:px-24 py-12 md:py-24">
+    <div className="px-4 md:px-24 lg:px-24 py-12 md:py-24">
       <h3 className="text-gradient md:text-2xl font-medium">Kelas Premium</h3>
       <h2 className="text-gradient text-lg md:text-3xl font-semibold mb-8 md:mb-12">
         Promo Kelas Buat Kamu

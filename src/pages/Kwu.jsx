@@ -10,8 +10,10 @@ import ErrorPage from "./ErrorPage";
 
 const KWU = () => {
   return (
-    <div className="bg-blurry bg-cover min-h-screen" id="hero">
-      <Navbar />
+    <>
+      <div className="bg-blurry bg-cover mb-12" id="hero">
+        <Navbar />
+      </div>
       <div className="mx-24 mb-4 gap-2">
         <img
           src={content.banner}
@@ -53,7 +55,7 @@ const KWU = () => {
         </div>
       </div>
       <Footer />
-    </div>
+    </>
   );
 };
 

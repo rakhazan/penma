@@ -35,6 +35,7 @@ const ClassCard = ({
         src={banner}
         alt={`Banner ${className}`}
         className="w-max rounded-2xl"
+        loading="lazy"
       />
       <div className="px-4 py-6 flex flex-col gap-4 md:gap-12">
         <span>

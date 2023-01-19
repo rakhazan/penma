@@ -230,18 +230,18 @@ export const cta = {
 export const testimonials = [
     {
         id: "testi 1",
-        username: "Bagas Fauzan",
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, dolorem error. Quas provident tenetur inventore laboriosam a alias id eum quam itaque, veniam ex ea neque facilis at placeat impedit officia optio. Odit, dolorem error. Quas provident tenetur inventore laboriosam a alias id eum quam itaque, veniam ex ea neque facilis at placeat impedit officia optio",
+        username: "Kyrie Irving",
+        text: "Materi yang disampaikan sangat mudah dipahami, RECOMENDED GUYS!!",
     },
     {
         id: "testi 2",
-        username: "Jakiati Rifqoh",
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, dolorem error. Quas provident tenetur inventore laboriosam a alias id eum quam itaque, veniam ex ea neque facilis at placeat impedit officia optio.",
+        username: "Tsubatsa Ozora",
+        text: "Awalnya sih coba coba, tapi lama kelamaan jadi nyaman belajar disini, mentornya baik baik, gasombong.",
     },
     {
         id: "testi 3",
-        username: "Ichda Rahma",
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, dolorem error. Quas provident tenetur inventore laboriosam a alias id eum quam itaque, veniam ex ea neque facilis at placeat impedit officia optio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit"
+        username: "Kim Jong Un",
+        text: "AYO BURUAN GABUNG!! ATAU MAU SAYA BOM NUKLIR??"
     },
 ];
 
@@ -249,8 +249,14 @@ export const teams = [
     {
         photo: "",
         name: "Hafidz Naufal Bariklana T",
-        nim: "",
+        nim: "0110221251",
         role: "Product Leader | Developer"
+    },
+    {
+        photo: "",
+        name: "Bagas Fauzan Hidayat",
+        nim: "0110221258",
+        role: "Developer"
     },
     {
         photo: "",
@@ -260,26 +266,20 @@ export const teams = [
     },
     {
         photo: "",
-        name: "Bagas Fauzan Hidayat",
-        nim: "",
-        role: "Developer"
-    },
-    {
-        photo: "",
         name: "Raihan Ahmad Fahrizal",
-        nim: "",
+        nim: "0110221253",
         role: "Developer"
-    },
-    {
-        photo: "",
-        name: "Ichda Rahma",
-        nim: "",
-        role: "Marketing"
     },
     {
         photo: "",
         name: "Jakiati Rifqoh",
-        nim: "",
+        nim: "0110221252",
         role: "Designer"
-    }
+    },
+    {
+        photo: "",
+        name: "Ichda Rahma",
+        nim: "0110221255",
+        role: "Marketing"
+    },
 ]

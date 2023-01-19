@@ -4,7 +4,7 @@ import { cta } from "../constants/landing";
 const CTA = () => (
   <>
     <div
-      className={`px-12 py-8 my-12 md:my-24 sm:mx-4 md:mx-auto max-w-5xl mx-auto bg-cta bg-cover bg-center rounded-3xl flex flex-col sm:flex-row justify-between items-center gap-4`}
+      className={`px-12 py-8 my-12 md:my-24 mx-1 lg:mx-auto max-w-5xl bg-cta bg-cover bg-center rounded-3xl flex flex-col sm:flex-row justify-between items-center gap-4`}
     >
       <img
         src={cta.img}
