@@ -247,37 +247,37 @@ export const testimonials = [
 
 export const teams = [
     {
-        photo: "",
+        photo: "/gopal.jpg",
         name: "Hafidz Naufal Bariklana T",
         nim: "0110221251",
         role: "Product Leader | Developer"
     },
     {
-        photo: "",
+        photo: "/bagas.jpg",
         name: "Bagas Fauzan Hidayat",
         nim: "0110221258",
         role: "Developer"
     },
     {
-        photo: "",
+        photo: "/rakha.jpg",
         name: "Rakha Zahran Nurfirmansyah",
         nim: "0110221254",
         role: "Developer"
     },
     {
-        photo: "",
+        photo: "/raihan.jpg",
         name: "Raihan Ahmad Fahrizal",
         nim: "0110221253",
         role: "Developer"
     },
     {
-        photo: "",
+        photo: "/kia.jpg",
         name: "Jakiati Rifqoh",
         nim: "0110221252",
         role: "Designer"
     },
     {
-        photo: "",
+        photo: "/ichda.jpeg",
         name: "Ichda Rahma",
         nim: "0110221255",
         role: "Marketing"

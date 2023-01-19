@@ -6,9 +6,10 @@ const TeamCard = ({ photo, name, nim, role }) => (
     <div className="w-full max-w-sm rounded-3xl bg-white px-2 py-4 md:p-8">
       <div className="flex items-center gap-4">
         <img
-          src={user}
+          src={photo || user}
           alt="profile"
           className="rounded-full w-16 md:w-24 h-16 md:h-24"
+          loading="lazy"
         />
         <div className="">
           <h6 className="text-purple text-lg md:text-xl font-semibold">
