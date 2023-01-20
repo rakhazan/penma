@@ -1,22 +1,19 @@
 import { contentIdentity } from "../../constants/sttnf";
 import sttnf from "/src/assets/sttnf.png";
 
-const Identity = () => {
-  return (
+const Identity = () => (
+  <>
+    <img src={sttnf} alt="sttnf" className="w-24 md:w-32 mx-auto mb-6" />
     <div>
-      <div className="mx-auto my-24 h-44 w-52">
-        <img src={sttnf} alt="sttnf" className="" />
-      </div>
-      <div>
-        {contentIdentity.map((content) => (
-          <ul>
-            <li>{content.value}</li>
-            <br />
-          </ul>
+      <ol className="list-decimal list-outside">
+        {contentIdentity.map((content, index) => (
+          <li key={index} className="text-black ml-4">
+            {content}
+          </li>
         ))}
-      </div>
+      </ol>
     </div>
-  );
-};
+  </>
+);
 
 export default Identity;

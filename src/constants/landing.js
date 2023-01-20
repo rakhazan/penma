@@ -248,7 +248,7 @@ export const testimonials = [
 export const teams = [
     {
         photo: "/gopal.jpg",
-        name: "Hafidz Naufal Bariklana T",
+        name: "Hafidz Naufal Bariklana Thoifur",
         nim: "0110221251",
         role: "Product Leader | Developer"
     },
@@ -272,7 +272,7 @@ export const teams = [
     },
     {
         photo: "/kia.jpg",
-        name: "Jakiati Rifqoh Assalwa K",
+        name: "Jakiati Rifqoh Assalwa Koswara",
         nim: "0110221252",
         role: "Designer"
     },

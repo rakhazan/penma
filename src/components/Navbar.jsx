@@ -21,14 +21,16 @@ const NavDropdown = () => (
       leaveTo="transform opacity-0 scale-95"
     >
       <Menu.Items
-        className={`absolute right-0 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none`}
+        className={`absolute right-0 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none overflow-hidden`}
       >
         {navlinks.map((nav, index) => (
           <Menu.Item key={nav.id}>
             {({ hover }) => (
               <Link
                 to={nav.link}
-                className={`${hover && "text-blue"} block px-4 py-2 text-sm`}
+                className={`${
+                  hover || active(nav.link) ? "text-blue" : ""
+                } block px-4 py-2 text-sm`}
               >
                 {nav.title}
               </Link>

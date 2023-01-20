@@ -7,7 +7,7 @@ export const navlinks = [
     {
         id: "STTNF",
         title: "STT Terpadu Nurul Fikri",
-        link: "sttnf/profile"
+        link: "/sttnf"
     },
 ];
 

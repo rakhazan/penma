@@ -3,66 +3,29 @@ import sttnf from "/src/assets/sttnf.png";
 
 const Profile = () => {
   return (
-    <div>
-      <div>
-        <div className="mx-auto my-24 h-44 w-52">
-          <img src={sttnf} alt="sttnf" className="" />
-        </div>
-        {/* {contents.map((content) => (
-                    <>
-                        <div>{content.title}</div>
-                        <div>{content.value}</div>
-                    </>
-                ))} */}
-        <ul>
-          <li className="text-2xl">Visi</li>
-          <li>
-            Pada tahun 2045 menjadi Sekolah Tinggi Teknologi yang unggul di
-            Indonesia, berbudaya inovasi, berjiwa teknopreneur, dan berkarakter
-            religius.
+    <>
+      <img src={sttnf} alt="sttnf" className="w-24 md:w-32 mx-auto mb-6" />
+      <ul>
+        {contents.map((content) => (
+          <li key={content.title} className="mb-4 md:mb-6">
+            <h2 className="text-2xl text-navy font-semibold">
+              {content.title}
+            </h2>
+            {!Array.isArray(content.value) ? (
+              <p className="text-black">{content.value}</p>
+            ) : (
+              <ol className="list-decimal list-outside ml-4">
+                {content.value.map((value, index) => (
+                  <li key={index} className="text-black">
+                    {value}
+                  </li>
+                ))}
+              </ol>
+            )}
           </li>
-          <br />
-          <li className="text-2xl">Misi</li>
-          <li>
-            1. Menyelenggarakan pendidikan tinggi berkualitas yang mengembangkan
-            jiwa kepemimpinan dan teknopreneurship berlandaskan iman dan takwa.
-          </li>
-          <li>
-            2. Melaksanakan penelitian yang inovatif dan berorientasi pada
-            pengembangan teknologi masa depan.
-          </li>
-          <li>
-            3. Menyelenggarakan pengabdian kepada masyarakat dengan memanfaatkan
-            teknologi tepat guna.
-          </li>
-          <li>
-            4. Membangun lingkungan akademik yang kondusif bagi terwujudnya
-            kebebasan akademik, otonomi keilmuan, dan budaya inovasi.
-          </li>
-          <br />
-          <li className="text-2xl">Tujuan</li>
-          <li>
-            1. Menghasilkan sarjana yang kompeten, profesional, berakhlak mulia,
-            sehingga mampu berkompetisi di dunia kerja.
-          </li>
-          <li>
-            2. Menghasilkan karya-karya ilmiah dibidang teknologi informasi
-            berwawasan masa depan yang inovatif dan bercirikan keterbukaan
-            (openness) seperti open source, open standar dan open
-            access/content, sehingga bermanfaat bagi bangsa Indonesia dan diakui
-            secara Internasional.
-          </li>
-          <li>
-            3. Menyelenggarakan pengabdian kepada masyarakat dengan memanfaatkan
-            teknologi tepat guna.
-          </li>
-          <li>
-            4. Menciptakan kultur akademik yang inovatif, kompetitif dan
-            kondusif untuk mewujudkan institusi yang unggul dan terkemuka.
-          </li>
-        </ul>
-      </div>
-    </div>
+        ))}
+      </ul>
+    </>
   );
 };
 
