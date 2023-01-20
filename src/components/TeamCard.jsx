@@ -3,7 +3,7 @@ import user from "../assets/default-user.png";
 
 const TeamCard = ({ photo, name, nim, role }) => (
   <>
-    <div className="w-full max-w-sm rounded-3xl bg-white px-2 py-4 md:p-8">
+    <div className="w-full max-w-md rounded-3xl bg-white px-2 py-4 md:p-8">
       <div className="flex items-center gap-4">
         <img
           src={photo || user}
